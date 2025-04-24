@@ -1,11 +1,18 @@
 import discord
 from discord.ext import commands
 from transformers import pipeline
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+
+my_token = os.getenv("DISCORD_TOKEN")
 
 generator = pipeline('text-generation', model='gpt2')
 
 
-DISCORD_TOKEN = ""
+DISCORD_TOKEN = my_token
 intents = discord.Intents.default()
 intents.messages = True
 intents.message_content = True

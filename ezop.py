@@ -5,7 +5,7 @@ from transformers import pipeline
 generator = pipeline('text-generation', model='gpt2')
 
 
-DISCORD_TOKEN = "MTMxMDUxNDExMjEyMzUwNjY4OA.GqDrrG.fsg_X_JvmeHCmReNxdFxP-9OMaiJOf3R0Jt1X0"
+DISCORD_TOKEN = ""
 intents = discord.Intents.default()
 intents.messages = True
 intents.message_content = True

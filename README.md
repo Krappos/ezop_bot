@@ -1,6 +1,10 @@
+📖 About
+This repository contains the core code for Ezop, a fun and lightweight Discord bot that generates poems based on the last message sent before the !ezop command.
 
-## About 
+Ezop is intentionally simple and unpredictable, which is part of its charm and humor.
 
-This code consist of main code for ezop bot for discord. Ezop generates poems from last mesage before sending !ezop into the chat. 
+🧠 Note: This bot is not intended for serious use. It's designed purely for entertainment.
 
-This code belong to SEO of Quantum Patrik Jozef Rydzík.
+Ownership: This code is the intellectual property of Quantum
+CEO: Patrik Jozef Rydzík
+
